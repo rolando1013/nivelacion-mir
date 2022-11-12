@@ -11,4 +11,3 @@
 9. Crear un primer commit con el mensaje “Versión Inicial”. **git add . git commit -m "Version Inicial"**
 10. Agregar al `README.md` los comandos que ejecutaron en cada paso.
 11. Crear un nuevo commit con el mensaje “Agrega solución primer ejercicio” **git commit -m "Agrega solución primer ejercicio"**
- 
