@@ -1,0 +1,48 @@
+form {
+    width: 100%;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 0 0 20px;
+    color: white;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+input[type=email],
+input[type=password],
+select {
+    width: 100%;
+    padding: 7px;
+}
+
+form label {
+    display: block;
+    color: white;
+}
+
+button {
+    padding: 5px 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.actions {
+    text-align: right;
+}
+
+@media (min-width: 500px) {
+    form {
+        width: 300px;
+        margin: 40px auto;
+    }
+}
